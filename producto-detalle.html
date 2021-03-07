@@ -3,14 +3,14 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device--width, initial-scale=1.0">
-    <title>Pionner</title>
+    <title>Detalles - Pionner</title>
     <link rel="icon" type="image/png" href="img/icono.png">
     <link rel="stylesheet" href="css/EstiloIndex.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>  
-    <section class="header">
+  
     <div class="container">
         <div class="navbar">
             <div class="logo">
@@ -18,7 +18,7 @@
             </div>
             <nav>
                 <ul id="BotonesMenu">
-                    <li><a href="">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="productos.html">Productos</a></li>
                     <li><a href="">Sobre nosotros</a></li>
                     <li><a href="registrarse.html">Iniciar sesion</a></li>
@@ -27,95 +27,98 @@
             <img src="img/Carrito.png" alt="Carrito de compras" width="30px" height="30px">
             <img src="img/menu.png" class="menu-icon" alt="Menu" onclick="menutoggle()">
         </div>
+    </div>
+
+
+    <section class="small-container detalles-producto">
         <div class="row">
             <div class="col-2">
-                <h1>No lo encontrarás por un precio mejor!!!</h1>
-                <p>Intrumentos musicales al precio mas bajo
-                    del marcado
-                </p>
-                <a href="productos.html" class="boton">Explorar Tienda </a>
+                <img src="img/galeria1.jpg" alt="Guitarra" width="100%" id="BigProductoImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="img/galeria1.jpg" alt="Guitarra1" width="100%" class="smallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/galeria2.jpg" alt="Guitarra2" width="100%" class="smallImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/galeria3.jpg" alt="Guitarra3" width="100%" class="smallImg">
+                    </div>
+                </div>
             </div>
             <div class="col-2">
-                <img src="img/portada.png" alt="nino portada">
+                <p>Home / Guitarra</p>
+                <h1>Guitarra Electroacústica</h1>
+                <h4>$150.00</h4>
+                <select name="" id="">
+                    <option >Selecciona color</option>
+                    <option >Abeto</option>
+                    <option >Rojo</option>
+                    <option >Azul</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="boton">Añadir al carrito</a>
+                <h3>Detalles del producto <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Fabricación indonesia. – Tapa de abeto. – 
+                    Fondo y aros de caoba. – Roseta atigrada múltiple. 
+                    – Diapasón palo rosa. – Sistema electroacústico cherub 
+                    gb1 con micrófono cerámico.
+                     – Color natural open pore (NS)</p>
             </div>
         </div>
-    </div>
     </section>
-
-    <section class="categoria">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="img/categoria1.png" alt="Categoria Cuerdas">
-                </div>
-                <div class="col-3">
-                    <img src="img/categoria2.png" alt="Categoria Viento">
-                </div>
-                <div class="col-3">
-                    <img src="img/categoria3.png" alt="Categoria Accesorios">
-                </div>
-            </div>
+        <div class="row row-2">
+            <h2>Productos relacionados</h2>
+            <a href="productos.html"><p>Ver mas</p></a>
         </div>
+    <section class="small-container"> 
+
     </section>
 
     <section class="small-container">
-        <h2 class="titulo-productos">Productos mas vendidos</h2>
-        <div class="row">
-            <div class="col-4">
-               <a href="producto-detalle.html"><img src="img/producto1.jpg" alt="Guitarra Electroacústica"></a>
-               <a href="producto-detalle.html"><h4>Guitarra Electroacústica</h4></a>
-                <div class="valoracion">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>$150.00</p>
-            </div>
-            <div class="col-4">
-                <img src="img/producto2.jpg" alt="Guitarra Eléctrica">
-                <h4>Guitarra Eléctrica</h4>
-                <div class="valoracion">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$600.00</p>
-            </div> 
-            <div class="col-4">
-                <img src="img/producto3.jpg" alt="Combo Guitarra Eléctrica">
-                <h4>Combo Guitarra Eléctrica</h4>
-                <div class="valoracion">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                </div>
-                <p>$200.00</p>
-            </div>
-            <div class="col-4">
-                <img src="img/producto4.jpg" alt="Saxofón Alto">
-                <h4>Saxofón Alto</h4>
-                <div class="valoracion">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>$350.00</p>
-            </div>
-        </div>
 
-        <h2 class="titulo-productos">Agregados recientemente</h2>
         <div class="row">
+            
             <div class="col-4">
-                <img src="img/producto5.png" alt="Guitarra Electroacústica">
-                <h4>Guitarra Electroacústica</h4>
+                <img src="img/producto9.jpg" alt="Amplificador de Guitarra">
+                <h4>Amplificador Guitarra</h4>
+                <div class="valoracion">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$80.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/producto10.jpg" alt="Clavijero Para Guitarra">
+                <h4>Clavijero Para Guitarra</h4>
+                <div class="valoracion">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$9.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/producto11.jpg" alt="Guitarra Acústica">
+                <h4>Guitarra Acústica</h4>
+                <div class="valoracion">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$60.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/producto12.jpg" alt="Trompeta Profesional">
+                <h4>Trompeta Profesional</h4>
                 <div class="valoracion">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -124,42 +127,6 @@
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$200.00</p>
-            </div>
-            <div class="col-4">
-                <img src="img/producto6.png" alt="Stand Pedestal Doble Para Teclado">
-                <h4>Stand Pedestal Doble Para Teclado</h4>
-                <div class="valoracion">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$100.00</p>
-            </div> 
-            <div class="col-4">
-                <img src="img/producto7.png" alt="Plug 6.3 Stereo Metalico Niquelado">
-                <h4>Plug 6.3 Stereo Metalico Niquelado</h4>
-                <div class="valoracion">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                </div>
-                <p>$3.00</p>
-            </div>
-            <div class="col-4">
-                <img src="img/producto8.jpg" alt="Teclado Casio CtX5000">
-                <h4>Teclado Casio CtX5000</h4>
-                <div class="valoracion">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>$550.00</p>
             </div>
         </div>
     </section>
@@ -222,6 +189,6 @@
             </div>
         </div>
     </footer>
-    <script src="js/main.js"></script>
+    <script src="js/main.js"> </script>
 </body>
 </html>

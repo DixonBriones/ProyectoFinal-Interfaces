@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device--width, initial-scale=1.0">
+    <title>Iniciar sesion-Pionner</title>
+    <link rel="icon" type="image/png" href="img/icono.png">
+    <link rel="stylesheet" href="css/EstiloIndex.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>  
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/logo2.png" width="125px" alt="Logo">
+            </div>
+            <nav>
+                <ul id="BotonesMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="">Sobre nosotros</a></li>
+                    <li><a href="registrarse.html">Iniciar sesion</a></li>
+                </ul>
+            </nav>
+            <img src="img/Carrito.png" alt="Carrito de compras" width="30px" height="30px">
+            <img src="img/menu.png" class="menu-icon" alt="Menu" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <section class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/portada.png" alt="Nino Con guitarra" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                            <div class="form-btn">
+                                <span onclick="login()">Login</span>
+                                <span onclick="registrar()">Registrar</span>
+                                <hr id="Indicador">
+                            </div>
+                            <form id="FormLogin" action="">
+                                <input type="text" placeholder="Usuario">
+                                <input type="password" placeholder="Contraseña">
+                                <button type="submit" class="boton">Iniciar sesion</button>
+                                <a href="">Olvido su contraseña?</a>
+                            </form>
+
+                            <form id="FormRegistro" action="">
+                                <input type="text" placeholder="Usuario">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Contraseña">
+                                <button type="submit" class="boton">Registrarme</button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Descarga nuestra app</h3>
+                    <p>Disponible en Android y ios</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png" alt="Logo Android store">
+                        <img src="img/app-store.png" alt="Logo Ios Store">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/logo.png" alt="Logo">
+                    <p>Nuestro proposito es conseguir que cada
+                        hogar tenga uno de nuestros instrumentos </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Link utiles</h3>
+                    <ul>
+                        <li>Politicas de devoluciones</li>
+                        <li>Afiliarse</li>
+                        <li>Promociones</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Siguenos en:</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
